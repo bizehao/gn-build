@@ -379,3 +379,5 @@ set_defaults("shared_library") {
 set_defaults("loadable_module") {
   configs = default_shared_library_configs
 }
+
+include_dirs = [ "//" ]
